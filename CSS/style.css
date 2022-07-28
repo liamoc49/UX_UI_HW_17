@@ -9,18 +9,21 @@ html {
 
 #navbar {
     flex-direction: row;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    background-color: #313639;
 
 
 }
-.logo {
+/*.logo {
     width: 40%;
     padding: 1%;
     background-color: aqua;
-}
-.nav {
+}*/
+/*.nav {
     width: 73%;
     padding: 1%;
-}
+}*/
 ul {
     width: 50%;
     padding: 1%;
@@ -29,6 +32,9 @@ ul {
     text-align: center;
 }
 
+body {
+    background-color: #F5F5F5;
+}
 
 /*heroImg*/
 .heroImg {
@@ -43,6 +49,7 @@ ul {
     margin: 0 auto;
     min-height: 100%;
     float: right;
+    font-family: 'Comfortaa', cursive;  
 }
 .headshot {
     float:left;
@@ -75,3 +82,5 @@ grid-template-rows:  ;
 
 
 }
+font-family: 'Comfortaa', cursive;
+background-color: #F5F5F5;
